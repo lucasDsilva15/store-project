@@ -13,7 +13,7 @@ class New extends React.Component{
                     <input type='text' id='productimage' name='productimage'/>
 
                     <label htmlFor='price'>Price:</label>
-                    <input type='number' id='price' name='price'/>
+                    <input type='number' step='0.01' id='price' name='price'/>
 
                     <label htmlFor='productdescription'>Product Description:</label>
                     <input type='textarea' id='productdescription' name='productdescription'/>

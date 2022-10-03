@@ -14,7 +14,7 @@ class Edit extends React.Component{
                     <input type='text' id='productimage' name='productimage' defaultValue={products.productimage}/>
 
                     <label htmlFor='price'>Price:</label>
-                    <input type='number' id='price' name='price' defaultvalue={products.price}/>
+                    <input type='number' id='price' name='price' defaultValue={products.price}/>
 
                     <label htmlFor='productdescription'>Product Description:</label>
                     <input type='textarea' id='productdescription' name='productdescription' defaultValue={products.productdescription}/>

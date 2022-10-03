@@ -5,7 +5,7 @@ const Schema = mongoose.Schema
 const crunchySchema = new Schema({
     name: {type: String, required: true},
     productimage: {type: String},
-    price: {type: Number, required: true},
+    price: {type: Number, required: true, },
     productdescription: {type: String, required: true},
     inventory: {type: Number, required: true}
 })
