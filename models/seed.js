@@ -21,7 +21,7 @@ const products = [
         inventory: 3
     },
     {
-        name: 'That Time I Got Reincarnated As A Slime - Season 2 Part 2 - Blu-Ray + DVD - Limited Edition',
+        name: 'That Time I Got Reincarnated As A Slime - Season 2 Part 2 blu-ray',
         productimage: "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/technicolor-universal-blu-ray-dvd-that-time-i-got-reincarnated-as-a-slime-season-2-part-2-blu-ray-dvd-limited-edition-30887304265772_2000x2000.jpg?v=1657747864",
         price: 65.99,
         productdescription: "After saving a village from an army and ascending to Demon Lord, Rimuru restores his fallen citizens. Will his desire for peace cost him his soul?",

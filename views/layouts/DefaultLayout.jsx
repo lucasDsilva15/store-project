@@ -9,10 +9,10 @@ class DefaultLayout extends React.Component{
                     <link rel='stylesheet' href='/css/style.css'/>
                 </head>
                 <body>
-                    <nav>
-                        1
-                        2
-                        3    
+                    <nav className='headermenu'>
+                        <word id='storemenuitem'>Crunchy Spin | STORE</word>
+                        <a href='/crunchy-spin' className='menulink'>All Products</a>
+                        
                     </nav>
                     {this.props.children}
                 </body>

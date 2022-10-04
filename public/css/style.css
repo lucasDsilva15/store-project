@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+*{
+    margin: 0;
+    padding: 0
+}
+h1{
+    font-family: 'Jost', sans-serif;
+}
+.titleheader{
+    display: flex;
+    justify-content: center;
+    height: 100px
+}
+#indexproducts{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+.perproduct{
+    text-align: center;
+    width: 33%;
+    min-height: 500px;
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+.headermenu{
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    display: flex;
+    padding: 10px
+    
+}
+#storemenuitem{
+    margin-right: 60px;
+    color: orange
+}
+.menulink{
+    color: inherit;
+    text-decoration: none;
+    
+}
+.menulink:visited {
+    text-decoration: none;
+}
+  
+.menulink:hover {
+    text-decoration: none;
+    color:orange
+}
+  
+.menulink:active {
+    text-decoration: underline;
+}
+#showpagecontainer{
+    display: flex;
+    
+}
+#imageshowpage{
+    display: flex;
+    height:600px;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#productinfo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-right: 20px;
+    font-size: 30px;
+}
+button{
+    width: 100px
+}
+#editbutton:hover{
+    color: black;
+}
+#productprice{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#productinventory{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
