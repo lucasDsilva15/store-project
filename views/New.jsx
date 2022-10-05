@@ -23,7 +23,7 @@ class New extends React.Component{
                     <input type='number' id='inventory' name='inventory'/><br/>
                     
 
-                    <input type='submit' value='submit'/>
+                    <input type='submit' value='Submit' className='submitbtn'/>
                 </form>
             </DefaultLayout>
             

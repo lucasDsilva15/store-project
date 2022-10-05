@@ -113,6 +113,9 @@ button{
     color:white;
     cursor: pointer;
 }
+#deletebutton{
+    margin-bottom: 50px;
+}
 #deletebutton:hover{
     cursor: pointer;
 }
@@ -137,7 +140,8 @@ button{
     background-color: orange;
     color: black;
     height: 80px;
-    width: 400px
+    width: 400px;
+    padding: 15px
 }
 #purchasemsgbtn:hover{
     background-color: darkorange;
@@ -151,3 +155,57 @@ button{
     width: 40%;
     margin-bottom: 100px;
 }
+
+#footer{
+    height: 300px;
+    background-color: black;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    display: flex;
+    padding: 10px 40px 10px;
+    z-index: 1;
+    justify-content: space-evenly;
+    
+}
+#containerhelp{
+    display: flex;
+    flex-direction: column;
+    width:33%;
+}
+#containerlegal{
+    display: flex;
+    flex-direction: column;
+    width:33%
+}
+#containerabout{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width:33%
+}
+h6{
+    font-size: 30px;
+}
+.footerlist{
+    font-size: 20px;
+    
+}
+.listitems{
+    cursor: pointer;
+    width:fit-content
+}
+.submitbtn{
+    background-color: orange;
+    color: black;
+    height: 50px;
+    width: 200px;
+    padding: 15px;
+    margin-bottom: 400px;
+}
+.submitbtn:hover{
+    background-color: darkorange;
+    color:white;
+    cursor: pointer;
+}
+

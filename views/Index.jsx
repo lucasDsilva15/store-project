@@ -14,8 +14,8 @@ class Index extends React.Component{
                 <ul id='products-index'>
                     {products?.map((product) => {
                         return(
-                            <div className='perproduct'>
-                            <li key={product._id}>
+                            <div className='perproduct' key={product._id}>
+                            <li>
                                 <a href= {`/crunchy-spin/${product._id}`}>
                                <img src={product.productimage} height='400'/><br/>
                                </a>

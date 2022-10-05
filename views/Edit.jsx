@@ -24,7 +24,7 @@ class Edit extends React.Component{
                     <input type='number' id='inventory' name='inventory' defaultValue={products.inventory}/> <br/>
                     
 
-                    <input type='submit' value='submit'/>
+                    <input type='submit' value='Submit' className='submitbtn'/>
                 </form>
             </DefaultLayout>
             
