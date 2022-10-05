@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
 *{
     margin: 0;
-    padding: 0
+    padding: 0;
+}
+body{
+    font-family: 'Encode Sans', sans-serif;
 }
 h1{
     font-family: 'Jost', sans-serif;
@@ -35,7 +39,8 @@ ul{
     font-family: 'Jost', sans-serif;
     font-size: 30px;
     display: flex;
-    padding: 10px
+    padding: 10px;
+    z-index: 1;
     
 }
 #storemenuitem{
@@ -65,9 +70,10 @@ ul{
 }
 #imageshowpage{
     display: flex;
+    justify-content: center;
     height:600px;
     width: 50%;
-    margin-left: 50px;
+    
     margin-top: 30px;
 }
 #productinfo{
@@ -91,4 +97,57 @@ button{
 #productinventory{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+#newform{
+    padding: 10px
+}
+#purchasebutton{
+    background-color: orange;
+    color: black;
+    height: 80px;
+    width: 40%;
+    margin-bottom: 100px;
+}
+#purchasebutton:hover{
+    background-color: darkorange;
+    color:white;
+    cursor: pointer;
+}
+#deletebutton:hover{
+    cursor: pointer;
+}
+#purchasemaincontainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    margin-left: 400px;
+    margin-right: 400px
+}
+#thankyouimg{
+    margin-left: 160px;
+}
+#thankyoumsg{
+    font-size: 40px;
+    padding: 15px
+}
+#purchasemsgbtn{
+    background-color: orange;
+    color: black;
+    height: 80px;
+    width: 400px
+}
+#purchasemsgbtn:hover{
+    background-color: darkorange;
+    color:white;
+    cursor: pointer;
+}
+#outofstock{
+    background-color: gray;
+    color: white;
+    height: 80px;
+    width: 40%;
+    margin-bottom: 100px;
 }

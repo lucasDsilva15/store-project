@@ -14,6 +14,26 @@ const showAllProducts = (req,res) => {
  const showNewPage = (req,res) => {
     res.render('./New')
  }
+//render PURCHASE
+const showPurchasePage = (req,res) => {
+    crunchyProducts.findById(req.params.id, (err,currentProduct) => {
+        if (err) {
+            res.status(400).json(err)
+        } else {
+            res.status(200).render('./Purchase', {products: currentProduct})
+        }
+    })
+}
+//PURCHASE
+const purchaseProduct = (req,res) => {
+    crunchyProducts.findOneAndUpdate({_id: req.params.id},{$inc : {'inventory' : -1}}, (err, updatedProduct) => {
+        if (err){
+            res.status(400).json(err)
+        } else {
+            res.status(200).redirect(`/crunchy-spin/${req.params.id}/purchase`)
+        }
+    })
+}
 //DELETE
 const deleteProduct = (req,res) => {
     crunchyProducts.findByIdAndDelete(req.params.id, (err,deletedProduct) => {
@@ -91,5 +111,6 @@ module.exports = {
     editProduct,
     showCurrentProduct,
     generateSeedData,
-
+    purchaseProduct,
+    showPurchasePage
 }
