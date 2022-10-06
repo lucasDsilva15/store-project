@@ -19,6 +19,16 @@ selected product by 1 once purchased.
 
 Lastly there is also a footer that has been added with some links to my linkedin and github.
 
+## Routes
+URL	   |       HTTPVerb	 | Action	
+/products/	|  GET	index	 | INDEX   List of items in Store
+/products/new |	GET	new	 | Add a NEW product 
+/products/:id	| DELETE	destory |	DELETES the currently selected product
+/products/:id |	PUT	update | UPDATES a selected product
+/products |	POST	create |	CREATES a new product
+/products/:id/edit | GET	edit | EDIT a current product
+/products/:id |	GET	show |	SHOW a currently selected product
+
 ## Information 
 This project from PerScholas software engineering bootcamp was created to be able to show off skills learned in class connecting back end elements of a web page into
 one cohesive page. Mongo DB was used to simulate an inventory for an online store that was to be updated inside the website.  Express allowed us to be able to 
