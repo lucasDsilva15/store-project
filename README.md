@@ -19,6 +19,13 @@ selected product by 1 once purchased.
 
 Lastly there is also a footer that has been added with some links to my linkedin and github.
 
+## Information 
+This project from PerScholas software engineering bootcamp was created to be able to show off skills learned in class connecting back end elements of a web page into
+one cohesive page. Mongo DB was used to simulate an inventory for an online store that was to be updated inside the website.  Express allowed us to be able to 
+link other elements together to create a seamless webpage that transitions from page to page using elements on the website (buttons, links, images).
+
+The front end of the site was generated using React components where we are generating html pages through react, connecting variables from our database onto the react page, and linking the pages together using Express and loading the styling of the page using a Default Layout react page that links to CSS. 
+
 ## Future Updates
 
 Categorizing the different products and adding said products to the options on the nav bar.
