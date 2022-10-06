@@ -21,9 +21,9 @@ Lastly there is also a footer that has been added with some links to my linkedin
 
 ##Future Updates
 
--Categorizing the different products and adding said products to the options on the nav bar.
--Login function that will store user logins in a database and provide discounted prices for members.
--A recently viewed items page that will store the users recently viewed items when viewing a particular product.
+Categorizing the different products and adding said products to the options on the nav bar.
+Login function that will store user logins in a database and provide discounted prices for members.
+A recently viewed items page that will store the users recently viewed items when viewing a particular product.
 
 ## Contributing
 Pull requests are welcome. Please feel free to use this code anyway you would like.
