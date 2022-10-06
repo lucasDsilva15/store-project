@@ -6,7 +6,7 @@ A mock website of CrunchyRoll merchandising website used to showcase backend and
 React, Mongoose, Express, method-override
 
 ## Tech 
-JavaScript, Css, React
+JavaScript, Css, JSX
 
 ## How It Works
 The website is to function like any regular store. However it is very minimalistic and there is of course nothing to purchase. This is purely to show off linking 
