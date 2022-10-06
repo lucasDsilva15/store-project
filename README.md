@@ -21,6 +21,7 @@ Lastly there is also a footer that has been added with some links to my linkedin
 
 ## Routes
 URL	   |       HTTPVerb	 | Action	
+|-------|----------------|---------|
 /products/	|  GET	index	 | INDEX   List of items in Store
 /products/new |	GET	new	 | Add a NEW product 
 /products/:id	| DELETE	destory |	DELETES the currently selected product
