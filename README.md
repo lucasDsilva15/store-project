@@ -19,7 +19,7 @@ selected product by 1 once purchased.
 
 Lastly there is also a footer that has been added with some links to my linkedin and github.
 
-##Future Updates
+## Future Updates
 
 Categorizing the different products and adding said products to the options on the nav bar.
 
